@@ -4,7 +4,7 @@ public class Company {
 	
 	public void identify()
 	{
-		System.out.println("Mario Company&Asociados");
+		System.out.println("Juan y Mario Compañia");
 	}
 
 }
