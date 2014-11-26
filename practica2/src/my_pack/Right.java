@@ -4,7 +4,7 @@ public class Right {
 	
 	public void identify()
 	{
-		System.out.println("Fernandez Castañera");
+		System.out.println("Fernandez Castañera,Juan Ramon");
 	}
 
 }
