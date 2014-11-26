@@ -16,9 +16,9 @@ public class Runner {
  	*/
 	public static void main(String[] args) {
 
-		// AccessControl guardian = new AccessControl();
+		 AccessControl guardian = new AccessControl();
 		
-		// if (guardian.hasAccess()) {
+		 if (guardian.hasAccess()) {
 			
 			Right workerAtRight = new Right();
 			 Left workerAtLeft   = new Left();
@@ -34,9 +34,9 @@ public class Runner {
 			workerAtLeft.identify();
 			workerAtRight.identify();
 			System.out.println("==================================================");
-		// } else {
-		//	System.out.println("You do not have access to this application");			
-		// }// if
+		 } else {
+			System.out.println("You do not have access to this application");			
+		 }// if
 	} // main
 
 } // Runner
